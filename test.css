@@ -1,1 +1,72 @@
 /* CSS goes here */
+#content {
+	width: 660px;
+	position: static;
+}
+
+#sidebar {
+	width: 300px;
+	float: right;
+}
+
+/* content */
+#content h2 {
+	color: green;
+	width: 60%;
+	float: right;
+}
+
+.author {
+	color: lightGray;
+	font-size:  20px;
+}
+
+.picture {
+	width: 30%;
+	float: left;
+	margin: 15px;
+	border-radius: 10px;
+}
+
+.story {
+	width: 60%;
+	float: right;
+}
+
+hr {
+	clear: both;
+}
+
+.comment_box {
+	float: right;
+	margin-bottom: 15px;
+	margin-right: 383px;
+	display: inline;
+}
+
+.comment {
+	float: right;
+	display: inline;
+	position: relative;
+	margin-top: -6px;
+	margin-right: -26px;
+	color: #25383C;
+}
+
+.date {
+	font-style: italic;
+}
+
+/* navigation */
+nav li {
+	list-style: none;
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: green;
+}
